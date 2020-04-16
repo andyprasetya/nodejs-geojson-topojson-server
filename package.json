@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-geojson-server",
+  "version": "1.0.0",
+  "description": "Simple, robust and versatile GeoJSON backend server for geospatial database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyprasetya/nodejs-geojson-server.git"
+  },
+  "keywords": [],
+  "author": "andyprasetya@opense7en.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyprasetya/nodejs-geojson-server/issues"
+  },
+  "homepage": "https://github.com/andyprasetya/nodejs-geojson-server#readme",
+  "devDependencies": {
+    "mocha": "latest",
+    "nodemon": "latest"
+  }
+}
