@@ -22,5 +22,11 @@
   "devDependencies": {
     "mocha": "latest",
     "nodemon": "latest"
+  },
+  "dependencies": {
+    "dbgeo": "latest",
+    "mysql": "latest",
+    "pg": "^7.14.0",
+    "sqlite3": "^4.1.1"
   }
 }
