@@ -21,7 +21,7 @@
   "homepage": "https://github.com/andyprasetya/nodejs-geojson-server#readme",
   "devDependencies": {
     "mocha": "latest",
-    "nodemon": "latest"
+    "nodemon": "^2.0.3"
   },
   "dependencies": {
     "dbgeo": "latest",
