@@ -6,6 +6,10 @@ After=network.target
 [Service]
 WorkingDirectory=/full/path/to/this/project
 Environment=NODE_ENV=production
+Environment=PGHOST=localhost
+Environment=PGUSER=[user]
+Environment=PGPASSWORD=[password]
+Environment=PGPORT=[port]
 Type=simple
 User=[_username_]
 ExecStart=/usr/bin/node /full/path/to/this/project/index.js
