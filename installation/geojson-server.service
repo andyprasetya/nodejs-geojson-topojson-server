@@ -9,6 +9,7 @@ Environment=NODE_ENV=production
 Environment=PGHOST=localhost
 Environment=PGUSER=[user]
 Environment=PGPASSWORD=[password]
+Environment=PGDATABASE=[db_name]
 Environment=PGPORT=[port]
 Type=simple
 User=[_username_]
