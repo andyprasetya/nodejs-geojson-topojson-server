@@ -1,2 +1,2 @@
-### Node.JS GeoJSON and TopoJSON Server
-A simple Node.JS GeoJSON and TopoJSON server for popular databases such as PostgreSQL/PostGIS, SQLite and MySQL.
+### Express-based PDF Generator by using PDFKit
+A simple Node.JS + Express + PDF generator server for popular databases such as PostgreSQL/PostGIS, SQLite and MySQL.
