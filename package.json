@@ -2,11 +2,10 @@
   "name": "nodejs-geojson-server",
   "version": "1.0.0",
   "description": "Simple, robust and versatile GeoJSON backend server for geospatial database",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node ./index.js",
-    "dev": "nodemon ./index.js",
-    "test": "./node_modules/.bin/mocha"
+    "start": "node ./main.js",
+    "dev": "nodemon --watch lib ./main.js"
   },
   "repository": {
     "type": "git",
@@ -19,16 +18,13 @@
     "url": "https://github.com/andyprasetya/nodejs-geojson-server/issues"
   },
   "homepage": "https://github.com/andyprasetya/nodejs-geojson-server#readme",
-  "devDependencies": {
-    "mocha": "latest",
-    "nodemon": "^2.0.3"
-  },
   "dependencies": {
-    "geojson-precision": "^1.0.0",
-    "mysql": "latest",
-    "pg": "^7.15.1",
-    "sqlite3": "^4.1.1",
-    "topojson-server": "^3.0.1",
-    "wkx": "^0.5.0"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pdfkit": "^0.12.3",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
