@@ -21,14 +21,12 @@
   "homepage": "https://github.com/andyprasetya/nodejs-geojson-server#readme",
   "devDependencies": {
     "mocha": "latest",
-    "nodemon": "^2.0.3"
+    "nodemon": "latest"
   },
   "dependencies": {
-    "geojson-precision": "^1.0.0",
+    "dotenv": "latest",
     "mysql": "latest",
-    "pg": "^7.15.1",
-    "sqlite3": "^4.1.1",
-    "topojson-server": "^3.0.1",
-    "wkx": "^0.5.0"
+    "pg": "latest",
+    "sqlite3": "latest"
   }
 }
