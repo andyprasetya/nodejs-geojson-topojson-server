@@ -4,16 +4,11 @@ Documentation=https://github.com/andyprasetya/nodejs-geojson-topojson-server
 After=network.target
 
 [Service]
-WorkingDirectory=/full/path/to/this/project
+WorkingDirectory=/home/beastie/.nodeapps/external-api
 Environment=NODE_ENV=production
-Environment=PGHOST=localhost
-Environment=PGUSER=[user]
-Environment=PGPASSWORD=[password]
-Environment=PGDATABASE=[db_name]
-Environment=PGPORT=[port]
 Type=simple
-User=[_username_]
-ExecStart=/usr/bin/node /full/path/to/this/project/index.js
+User=beastie
+ExecStart=/usr/bin/node /home/beastie/.nodeapps/external-api/index.js
 Restart=on-failure
 
 [Install]
