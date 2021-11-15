@@ -1,0 +1,15 @@
+[Unit]
+Description=Simple, robust and versatile GeoJSON backend server for geospatial data
+Documentation=https://github.com/andyprasetya/nodejs-geojson-topojson-server
+After=network.target
+
+[Service]
+WorkingDirectory=/home/beastie/.nodeapps/external-api
+Environment=NODE_ENV=production
+Type=simple
+User=beastie
+ExecStart=/usr/bin/node /home/beastie/.nodeapps/external-api/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
