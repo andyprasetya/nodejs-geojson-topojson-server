@@ -26,6 +26,7 @@
   "dependencies": {
     "dotenv": "latest",
     "mysql": "latest",
+    "oracledb": "^5.3.0",
     "pg": "latest",
     "sqlite3": "latest"
   }
