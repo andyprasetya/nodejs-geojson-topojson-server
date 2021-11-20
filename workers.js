@@ -113,12 +113,12 @@ workers.checkCaptchasValidityLoop = function(){
 
 
 workers.init = function(){
-  workers.checkTokensValidity();
-  workers.checkSessionsValidity();
-  workers.checkCaptchasValidity();
-  workers.checkTokensValidityLoop();
-  workers.checkSessionsValidityLoop();
-  workers.checkCaptchasValidityLoop();
+  //workers.checkTokensValidity();
+  //workers.checkSessionsValidity();
+  //workers.checkCaptchasValidity();
+  //workers.checkTokensValidityLoop();
+  //workers.checkSessionsValidityLoop();
+  //workers.checkCaptchasValidityLoop();
   console.log('\x1b[33m%s\x1b[0m','Background workers are running');
 };
 
