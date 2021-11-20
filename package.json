@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
-    "dev": "nodemon ./index.js",
-    "test": "./node_modules/.bin/mocha"
+    "dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,6 @@
   },
   "homepage": "https://github.com/andyprasetya/nodejs-geojson-server#readme",
   "devDependencies": {
-    "mocha": "latest",
     "nodemon": "latest"
   },
   "dependencies": {
