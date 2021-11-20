@@ -4,11 +4,11 @@ Documentation=https://github.com/andyprasetya/nodejs-geojson-topojson-server
 After=network.target
 
 [Service]
-WorkingDirectory=/home/beastie/.nodeapps/external-api
+WorkingDirectory=/home/redbeastie/.nodeapps/api-webmap-pbbp2
 Environment=NODE_ENV=production
 Type=simple
-User=beastie
-ExecStart=/usr/bin/node /home/beastie/.nodeapps/external-api/index.js
+User=redbeastie
+ExecStart=/usr/bin/node /home/redbeastie/.nodeapps/api-webmap-pbbp2/index.js
 Restart=on-failure
 
 [Install]
