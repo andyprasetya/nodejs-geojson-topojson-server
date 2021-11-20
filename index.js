@@ -420,8 +420,8 @@ app.route('/uploadSHP').post(function(req, res) {
   });
 });
 
-app.listen(7447, function () {
-  console.log('Local-isolated server is running @port 7447...');
+app.listen(process.env.APP_PORT, function () {
+  console.log('Local-isolated server is running @port '+ process.env.APP_PORT +'...');
 });
 
 module.exports = app;
