@@ -13,6 +13,14 @@ lib.dbObject = new sqlite.Database(lib.dbFile, sqlite.OPEN_READWRITE, (err) => {
   if(err) throw err;
 });
 
+lib.pgpool = new Pool({
+  user: process.env.PGSQL_USERNAME,
+  host: process.env.PGSQL_HOST,
+  database: process.env.PGSQL_DATABASE,
+  password: process.env.PGSQL_PASSWORD,
+  port: process.env.PGSQL_PORT
+});
+
 lib.create = function(dir, file, data, callback){
   fs.open(lib.baseDir + dir +'/'+ file +'.json', 'wx', function(err, fileDescriptor){
     if(!err && fileDescriptor){
