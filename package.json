@@ -22,6 +22,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "pdfkit": "^0.12.3",
+    "pdfkit-table": "^0.1.59",
     "pg": "^8.7.1"
   },
   "devDependencies": {
